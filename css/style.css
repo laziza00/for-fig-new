@@ -420,16 +420,15 @@ body {
   margin-right: 4px;
   border-radius: 2px;
 }
-.menu-btn{
-  width: 24px;
-  height: 24px;
+.bx-mneu{
+  padding: 4px;
   text-align: center;
   align-items: center;
-  border: 1px solid #e2d7d7;
+  border: 1px solid #0000001a;
   display: block;
-  cursor: pointer;
   background-color: #fff;
-  color: #8d8989; 
+  color: red;
+  /* color: #8d8989;  */
   border-radius: 2px;
 }
 .bx-question-mark{
@@ -473,9 +472,12 @@ body {
   transition-duration: 0.3s;
   background-color: #f0f0f0;
 }
-.untitled-item:hover .untitled-img{
+.untitled-item:hover .untit-box .untitled-img{
     opacity: 0.1;
 }
-.grid-box:hover .bx-menu{
+
+
+
+.menu-btn:hover .bx-menu{
   background-color: #f0f0f0;
 }
