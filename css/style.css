@@ -140,7 +140,112 @@ body {
 
 .upgrade{
   border-right: 1px solid #0000001a;
+  padding: 3px 8px;
 }
+.icon{
+  font-weight: normal;
+  display: block;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  color: #474242;
+}
+.upgrade-text{
+  font-weight: normal;
+  font-size: 11px;
+  color: #333;
+  line-height: 18px;
+}
+.bx-right-arrow-alt{
+  font-size: 14px;
+  width: 14px;
+  height: 10px;
+}
+.beta{
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  padding: 2px 4px;
+  font-size: 9px;
+  color: #fff;
+  background-color: #4db34df5;
+  border-radius: 3px;
+}
+.up-icon{
+  height: 36px;
+}
+.drafts{
+  height: 40px;
+  border-bottom: 1px solid #0000001a;
+}
+.community{
+  height: 55px;
+  border-bottom: 1px solid #0000001a;
+}
+.comun-text{
+  margin-right: 10px;
+}
+.bx-up-arrow-alt{
+  padding: 0px 0px;
+  border: 1px solid #474242;
+  border-radius: 50%;
+  align-items: center;
+}
+.unlim-text{
+  width: 150px;
+}
+.unlim-box{
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.grade-text{
+  align-items: center;
+  padding: 6px 11px;
+  border: 1px solid #474242;
+  border-radius: 5px;
+  width: 70px;
+  margin-left: 31px;
+}
+.grade-box{
+  height: 120px;
+  border-bottom: 1px solid #0000001a;
+}
+.bx-star{
+  opacity: 0.4;
+}
+.star-text{
+  width: 150px;
+  opacity: 0.4;
+}
+.star-box{
+  height: 70px;
+  border-bottom: 1px solid #0000001a;
+}
+.plus{
+  opacity: 1;
+  color: #000;
+  font-size: 20px;
+}
+.plus-box{
+  height: 55px;
+  padding-left: 31px;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .hero-fix-box{
   width: 100%;
   left: 0;
@@ -238,7 +343,14 @@ body {
   opacity: 0.5;
 }
 .explore{
+  margin-right: 4px;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.801);
   margin-bottom: 7px;
+}
+.bx-chevron-down{
+  align-items: center;
+  color: #ccc;
 }
 .text-none{
   text-decoration: none;
