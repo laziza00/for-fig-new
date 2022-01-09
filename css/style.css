@@ -135,6 +135,7 @@ body {
   padding-top: 6px;
   height: 100%;
   border-right: 1px solid #3e3e3e;
+  height: 40px;
 }
 .style-none{
   list-style-type: none;
@@ -234,6 +235,10 @@ body {
   height: 55px;
   align-items: center;
 }
+/* .draft-plus{
+  display: none;
+  overflow: hidden;
+} */
 
 
 
@@ -361,10 +366,6 @@ body {
   font-weight: normal;
   font-size: 24px;
 }
-.see-btn{
-  border: none;
-  cursor: pointer;
-}
 
 .untitled-list{
   margin-bottom: 50px;
@@ -420,15 +421,19 @@ body {
   margin-right: 4px;
   border-radius: 2px;
 }
-.bx-mneu{
-  padding: 4px;
+/* .bx-grid-alt{
+
+} */
+.menu-btn{
+  width: 24px;
+  height: 24px;
   text-align: center;
   align-items: center;
-  border: 1px solid #0000001a;
+  border: 1px solid #e2d7d7;
   display: block;
+  cursor: pointer;
   background-color: #fff;
-  color: red;
-  /* color: #8d8989;  */
+  color: #8d8989; 
   border-radius: 2px;
 }
 .bx-question-mark{
@@ -448,6 +453,12 @@ body {
   width: 82%;
   border-bottom: 1px solid #0000001a;
   z-index: 500;
+}
+
+
+
+.header-upgrade:hover{
+  background-color: #000;
 }
 .header-upgrade:hover .gmail{
   transition-duration: 0.2s;
@@ -469,15 +480,35 @@ body {
   background-color: #000;
 }
 .hero-fix-item:hover{
-  transition-duration: 0.3s;
+  transition-duration: 0.1s;
   background-color: #f0f0f0;
 }
-.untitled-item:hover .untit-box .untitled-img{
+/* .untitled-item:hover .untitled-img{
     opacity: 0.1;
+} */
+/* .menu-btn:hover .bx-menu{
+  background-color: red;
+} */
+/* .bx-menu:hover{
+  background-color: red;
+} */
+
+.bx-x:hover{
+  background-color: #fff;
 }
-
-
-
-.menu-btn:hover .bx-menu{
+.up-icon:active{
+  transition: all 0.5s ease;
+  background-color: #0000ff7a;
+}
+.community:hover .bx-right-arrow-alt{
+    transform: translate(2px, 0);
+    transition-duration: 0.1s;
+}
+.grade-text:active{
+  transition-duration: 0.2s;
+  border: 2px solid #0000ff71;
+}
+.plus-box:hover{
+  transition-duration: 0.1s;
   background-color: #f0f0f0;
 }
